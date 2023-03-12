@@ -12,8 +12,9 @@ public class Deneme {
         ChromeOptions co = new ChromeOptions();
         co.addArguments("--remote-allow-origins=*");
         WebDriver driver = new ChromeDriver(co);
-        driver.get("https://www.google.co.uk/");
-        System.out.println(driver.getTitle());
+        driver.get("https://www.google.com/");
+
+
 
 
     }

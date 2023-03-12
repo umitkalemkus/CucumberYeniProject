@@ -1,5 +1,6 @@
 package stepdefinitions;
 
+import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
@@ -19,8 +20,6 @@ public class ParametirezedStepsDefinitions {
     public void kullaniciTitleDaGormelidir(String key) {
         Assert.assertTrue(Driver.getDriver().getTitle().contains(key));
         Driver.closeDriver();
-
-
 
 
     }
