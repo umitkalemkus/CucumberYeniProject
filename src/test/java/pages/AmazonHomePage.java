@@ -20,6 +20,7 @@ public class AmazonHomePage {
 
     }
 
+   
     @FindBy(id = "twotabsearchtextbox")
     private WebElement searchBox;
 
