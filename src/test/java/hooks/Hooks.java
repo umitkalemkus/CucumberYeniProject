@@ -15,6 +15,7 @@ public class Hooks {
 
     @After
     public void teardown(){
+        
         System.out.println("After methodu calisti");
 
 
