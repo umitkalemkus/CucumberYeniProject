@@ -1,6 +1,6 @@
 Feature: Google Arama Feature
 
-
+  @smoke
   Scenario Outline:
     Given Kullanici google sayfasindadir
     When Kullanici "<aranacakKelime>" arattiginda

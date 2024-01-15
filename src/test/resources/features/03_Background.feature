@@ -5,15 +5,15 @@ Feature: Google Arama Test Feature
     Given Kullanici google sayfasindadir
 
 
-
+   @smoke
   Scenario: Kullanici samsung aradiginda samsung gormelidir
     When Kullanici samsung kelimesini arar
     Then Kullanici sayfada samsung kelimesi gectigini dogrular
-
+  @smoke
   Scenario: Kullanici cucumber aradiginda samsung gormelidir
     When Kullanici cucumber kelimesini arar
     Then Kullanici sayfada cucumber kelimesi gectigini dogrular
-
+  @smoke
   Scenario: Kullanici selenium aradiginda samsung gormelidir
     When Kullanici selenium kelimesini arar
     Then Kullanici sayfada selenium kelimesi gectigini dogrular
