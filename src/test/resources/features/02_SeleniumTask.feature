@@ -1,5 +1,5 @@
 Feature: Google search test
-   @smoke
+
   Scenario: Google da bir kelime arandiginda ilgili kelimeyi barindiran sonuclar goruntulenmelidir
     Given Kullanici google sayfasindadir
     When Kullanici samsung kelimesini arar
