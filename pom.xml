@@ -68,7 +68,7 @@
 
                             <parallel>methods</parallel>
                             <perCoreThreadCount>true</perCoreThreadCount>
-                            <threadCountMethods>10</threadCountMethods>
+                            <threadCountMethods>7</threadCountMethods>
 
                             <includes>
                                 <include>**ui/runners/ParallelTestUI.java</include>
@@ -91,7 +91,7 @@
 
                             <parallel>methods</parallel>
                             <perCoreThreadCount>true</perCoreThreadCount>
-                            <threadCountMethods>20</threadCountMethods>
+                            <threadCountMethods>7</threadCountMethods>
 
                             <includes>
                                 <include>**/TagRunner.java</include>
