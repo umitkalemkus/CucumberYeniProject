@@ -1,9 +1,20 @@
-pipeline{
+pipeline {
     agent any
-    stages('Run Tests'){
-        steps{
-            sh './mvnw clean test'
+    stages {
+        stage('Print PATH') {
+            steps {
+                script {
+                    sh 'echo $PATH'
+                }
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                script {
+                    sh 'mvn clean test -Dtest="TagRunner"'
+                }
+            }
         }
     }
-}
 }
