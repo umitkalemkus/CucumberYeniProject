@@ -13,6 +13,9 @@ public class FirstStepDefinition {
     public void senaryomu_calistirdigimda() {
 
     }
+
+
+
     @Then("Senaryomun calistigini konsolda gormeliyim")
     public void senaryomun_calistigini_konsolda_gormeliyim() {
 
