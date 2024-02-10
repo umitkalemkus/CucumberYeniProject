@@ -39,6 +39,8 @@ public class AmazonStepDefitions {
 
 
 
+
+
     @And("Kullanici ekran goruntusu alir")
     public void kullaniciEkranGoruntusuAlir() {
 
