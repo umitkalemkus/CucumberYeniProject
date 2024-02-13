@@ -51,6 +51,8 @@ public class AmazonStepDefitions {
 
     }
 
+
+
     @And("Kullanici browser i kapatir")
     public void kullaniciBrowserIKapatir() {
         Driver.closeDriver();
