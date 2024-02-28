@@ -6,6 +6,11 @@ Feature: Gooogle Arama Feature
 
 
 
+
+
+
+
+
   Scenario: cucumber search
       When Kullanici "cucumber" arattiginda
       Then Kullanici title da "cucumber" gormelidir
